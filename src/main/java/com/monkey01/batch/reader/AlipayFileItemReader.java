@@ -35,7 +35,7 @@ public class AlipayFileItemReader {
 				setTargetType(AlipayTranDO.class);
 			}});
 		}});
-		reader.setLinesToSkip(5);
+		reader.setLinesToSkip(1);
 		return reader;
 	}
 
